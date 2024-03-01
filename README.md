@@ -12,14 +12,14 @@ PRs should be posted _before_ class begins on Monday, March 4, 2024.
 
 #### Process
 
-- Accept the assignment via GitHub Classroom link shared with you in Slack
-- `cd` into an appropriate location on your local, we recommend the Desktop
-- Clone the assessment repository
-- `cd` into the assessment
-- Create a branch with the unit and your name, e.g `unit-3-sarah-proctor`
-- Run $ `yarn` to install the React dependencies
-- Run $ `yarn start` to start the server
-- Complete all assessment tasks
+- Accept the assignment via GitHub Classroom link shared with you in Slack ✅
+- `cd` into an appropriate location on your local, we recommend the Desktop ✅
+- Clone the assessment repository ✅
+- `cd` into the assessment ✅
+- Create a branch with the unit and your name, e.g `unit-3-sarah-proctor` ✅
+- Run $ `yarn` to install the React dependencies ✅
+- Run $ `yarn start` to start the server ✅
+- Complete all assessment tasks 
 - Git add files, commit, push to your branch
 - Create a pull request and leave the branch open for review!
 
@@ -28,10 +28,15 @@ PRs should be posted _before_ class begins on Monday, March 4, 2024.
 ### React Challenge
 
 1. React Debugging: The Card Draw React application has three (3) errors that need to be fixed. Use the console and error messages to guide you to the solution.
+    a. needed fragment
+    b. export default (card.js)
+    c. added { hand } as parameter on card.js
 
 2. React Feature: Add functionality to the `Return Cards and Shuffle Deck` button using the `shuffle` function to reset the Card Draw application to its original state.
+    a. calling setHand([]) within the shuffle function
 
 3. React Concepts: Add comments to the seven (7) notations in the `drawCard` function describing in detail the functionality line of code BELOW the comment.
+    Done
 
 4. STRETCH (optional): Add stylings of your choice to the application. Ensure the styling does not interfere with the card draw functionality.
 
@@ -39,11 +44,12 @@ PRs should be posted _before_ class begins on Monday, March 4, 2024.
 
 1. What are three (3) syntax differences between HTML and JSX?
 
--
--
--
+- using {} to call specific components
+- tags that are self closing
+- using capital letters when making components or new files, and importing that function 
 
 2. What is yarn? What file(s) are modified when you run the command yarn in your terminal?
+    - yarn is a package manager that uses libraries to helps projects function properly. The files that are modified/ added are node modules
 
 3. What is the difference between state values and props in React?
 
