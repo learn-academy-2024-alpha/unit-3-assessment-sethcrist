@@ -19,7 +19,7 @@ PRs should be posted _before_ class begins on Monday, March 4, 2024.
 - Create a branch with the unit and your name, e.g `unit-3-sarah-proctor` ✅
 - Run $ `yarn` to install the React dependencies ✅
 - Run $ `yarn start` to start the server ✅
-- Complete all assessment tasks 
+- Complete all assessment tasks ✅
 - Git add files, commit, push to your branch
 - Create a pull request and leave the branch open for review!
 
@@ -49,19 +49,26 @@ PRs should be posted _before_ class begins on Monday, March 4, 2024.
 - using capital letters when making components or new files, and importing that function 
 
 2. What is yarn? What file(s) are modified when you run the command yarn in your terminal?
-    - yarn is a package manager that uses libraries to helps projects function properly. The files that are modified/ added are node modules
+    - yarn is a package manager that uses libraries to helps projects function properly. The files that are modified/ added are node modules and package.json
 
 3. What is the difference between state values and props in React?
+    - the difference between state value and props in react is: props cannot be changed and are used to pass information from parent to child and state can be changed.
+    - an example of this would be a robot doing a task, props are the specific instructions given and cannot be changed while the robot is doing the task and the State is the robots
+    memory that is updated as it continues going about its task
 
 4. STRETCH (optional): What is the difference between a div tag and a span tag?
+    - a div is a block level element and a span is a inline element. divs are commonly used for larger blocks of code where as a span is used for smaller portions of code
 
 ### Looking Ahead: Terms for Next Unit
 
 1. Object-oriented programming:
+    - organizes software design around data / objects rather than functions
 
 2. Ruby:
+    - open source, object-oriented language. It is a general-purpose, dynamically-typed, server-side scripting language. 
 
 3. Ruby Hashes:
+    - is a collection of keys and their values. They are simiar to arrays but instead of indexes they are referenced by their keys.
 
 ---
 

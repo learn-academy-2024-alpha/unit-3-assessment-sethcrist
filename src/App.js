@@ -48,7 +48,7 @@ const App = () => {
 
   return (
     <>
-    <h1>Draw a Card</h1>
+    <h1>Draw a Card 🃏</h1>
     <button onClick={drawCard}>Click to Draw a Card</button>
     <button onClick={shuffle}>Return Cards and Shuffle Deck</button>
     <Card hand={hand} />

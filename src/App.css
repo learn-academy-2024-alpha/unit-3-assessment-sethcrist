@@ -1,12 +1,85 @@
+/* Overall page styling to simulate a poker table */
+body {
+  background-color: #013220; /* Dark green background */
+  font-family: Arial, sans-serif;
+  color: white; /* White text color for contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  border: 30px solid rgb(223, 126, 0); /* Adds a red border around the body */
+  box-sizing: border-box;
+  animation: backgroundShift 10s infinite;
+}
+
+h1 {
+  font-size: 48px;
+  color: #FFD700;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Montserrat', sans-serif;
+  animation: fadeIn 2s ease-out;
+}
+
+/* Styles for the hand container */
 .handStyles {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 50px;
+  border-radius: 10px; /* Slightly rounded corners for the hand container */
+  background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent black background */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
 }
+
+/* Individual card styling */
 .cardStyles {
-  border: 1px solid black;
-  width: 70px;
-  height: 95px;
+  padding: 60px 40px;
+  border: 2px solid #fff; /* White border for the cards */
+  border-radius: 8px; /* Rounded corners for the cards */
+  background-color: #fff;
+  color: #000; /* Black text for readability */
+  font-size: 20px; /* Larger font size for visibility */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+  animation: flipCard 0.6s ease;
+}
+
+/* Button styling for a more thematic fit */
+button {
+  padding: 10px 20px;
   margin: 10px;
-  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #013220; /* Dark green text to match the table */
+  font-size: 16px;
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #f0f0f0; /* Lighter background on hover */
+}
+
+@keyframes flipCard {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes backgroundShift {
+  0% { background-color: #013220; }
+  50% { background-color: #026440; }
+  100% { background-color: #013220; }
 }
