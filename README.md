@@ -20,8 +20,8 @@ PRs should be posted _before_ class begins on Monday, March 4, 2024.
 - Run $ `yarn` to install the React dependencies ✅
 - Run $ `yarn start` to start the server ✅
 - Complete all assessment tasks ✅
-- Git add files, commit, push to your branch
-- Create a pull request and leave the branch open for review!
+- Git add files, commit, push to your branch ✅
+- Create a pull request and leave the branch open for review! ✅
 
 ---
 
